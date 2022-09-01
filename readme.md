@@ -56,6 +56,24 @@ För att kompilera scss till css så finns det ytterligare ett script i package 
 npm run sass:watch
 ```
 
+## Typografi
+
+Jag har laddat ned Merriweather Sans från [Google fonts](https://fonts.google.com/knowledge/using_type/self_hosting_web_fonts).
+
+Scalan för typsnitt kommer från [Utopia](https://utopia.fyi/type/calculator/).
+
+## Dark-mode
+
+Sidan kör en väldigt enkel implementation av darkmode. Varsegod och kolla i scss filen.
+Det utgår från din setting i windows/browser.
+
+Du kan testa att toggla den i utv.konsollen.
+
+```js
+document.documentElement.setAttribute("data-user-color-scheme", "dark");
+document.documentElement.setAttribute("data-user-color-scheme", "light");
+```
+
 # Databas
 
 Det går att köra mysql klienten från bash.
@@ -71,3 +89,9 @@ I tabellen demo, lägg till data med ditt namn.
 USE te20;
 INSERT INTO `demo` (`name`) VALUES ('Test');
 ```
+
+# Formattering
+
+Installera [prettier](https://prettier.io/) i vscode.
+Kolla inställningar i [.prettierrc](.prettierrc).
+Här finns en lista över [options](https://prettier.io/docs/en/options.html).
