@@ -1,9 +1,13 @@
 # Detta är ett exempel
 
-Det här är ett exempel på alla delarna vi kommer att jobba med och få med under året som kommer.
-Ett smakprov!
+Det här är ett exempel på lite av den teknik vi kommer arbeta med under året.
 
+En server-applikation som serverar HTML med innehåll hämtat från en databas.
+
+Gör en fork av detta repo, [webb-demo](https://github.com/jensnti/webb-demo).
 ## Stack
+
+Vi bygger en [monolit](https://en.wikipedia.org/wiki/Monolithic_application).
 
 * [Node](https://nodejs.org/en/)
 * [Express](https://expressjs.com/)
@@ -15,15 +19,21 @@ Ett smakprov!
 * [Sass](https://sass-lang.com/)
 
 # Kommandon
-Skapa mapp och byt mapp till den (cd, change directory)
+Starta terminalen (ubuntu).
+
+Byt till din code mapp och klona sedan repot och byt till repots mapp.
+
 ```bash
-mkdir webb-demo
+cd code
+git clone https://github.com/jensnti/webb-demo
 cd webb-demo
 ```
+
 Installera paket med NPM. Vilka paket som installeras är angivet i filen [package.json](package.json).
 ```bash
 npm install
 ```
+
 För att skydda känslig data, som databas login så använder vi oss utav en fil som heter .env. Inställningarna som behövs för denna fil går att läsa utan faktiska värden i .env-example.
 
 Vi kopierar .env-example till en ny fil, .env
