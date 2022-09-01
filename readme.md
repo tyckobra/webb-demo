@@ -62,4 +62,12 @@ Det går att köra mysql klienten från bash.
 Det går även att använda en annan klient, [TablePlus](https://tableplus.com/).
 
 Testa att koppla upp dig till klassens DB på skolans databas-server.
+
+För att ange vilken host du ska använda skriver du ```mysql -h HOST -u X -p```
+
 I tabellen demo, lägg till data med ditt namn.
+
+```sql
+USE te20;
+INSERT INTO `demo` (`name`) VALUES ('Test');
+```
