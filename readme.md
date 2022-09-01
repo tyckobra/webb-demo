@@ -45,3 +45,11 @@ För att kompilera scss till css så finns det ytterligare ett script i package 
 ```bash
 npm run sass:watch
 ```
+
+# Databas
+
+Det går att köra mysql klienten från bash.
+Det går även att använda en annan klient, [TablePlus](https://tableplus.com/).
+
+Testa att koppla upp dig till klassens DB på skolans databas-server.
+I tabellen demo, lägg till data med ditt namn.
