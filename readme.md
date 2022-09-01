@@ -39,3 +39,9 @@ npm run dev
 ```
 Surfa till [localhost:3000](http:\\localhost:3000)
 
+# Sass
+
+För att kompilera scss till css så finns det ytterligare ett script i package filen. Kommandot kör sass och *kollar* filen för ändringar. Så när du sparar ```sass/style.scss``` så kommer sass automatiskt skriva en ny ```public/stylesheets/style.css```.
+```bash
+npm run sass:watch
+```
