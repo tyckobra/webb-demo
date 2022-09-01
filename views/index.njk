@@ -1,0 +1,13 @@
+{% extends "layout.njk" %}
+{% block  content %}
+<main>
+    <h1>{{ title }}</h1>
+    <p>{{ intro }}</p>
+    <p>Detta är dock statisk text. Följt av data från databas.</p>
+    <ul>
+        {% for row in rows %}
+        <li>{{ row.name }}</li>
+        {% endfor %}
+    </ul>
+</main>
+{% endblock %}%
