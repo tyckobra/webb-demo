@@ -92,6 +92,6 @@ INSERT INTO `demo` (`name`) VALUES ('Test');
 
 # Formattering
 
-Installera [prettier](https://prettier.io/) i vscode.
+Installera [prettier](https:np//prettier.io/) i vscode.
 Kolla inställningar i [.prettierrc](.prettierrc).
 Här finns en lista över [options](https://prettier.io/docs/en/options.html).
